@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__firecrawl__firecrawl_search",
+      "mcp__exa__web_search_exa",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "mcp__exa__deep_researcher_start",
+      "mcp__exa__deep_researcher_check",
+      "mcp__firecrawl__firecrawl_scrape",
+      "mcp__youtube__searchVideos",
+      "Bash(jq:*)",
+      "mcp__perplexity-mcp__perplexity_search_web",
+      "Bash(chmod:*)",
+      "Bash(uv run:*)",
+      "Bash(uv add:*)",
+      "Bash(uv init:*)"
+    ],
+    "deny": []
+  }
+}
