@@ -1,0 +1,29 @@
+/* Utility classes */
+
+/* Text utilities */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Layout utilities */
+.center {
+  @apply flex items-center justify-center;
+}
+
+/* Animation utilities */
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+/* Shadow utilities */
+.shadow-colored {
+  filter: drop-shadow(0 10px 15px rgba(0, 102, 204, 0.15));
+}

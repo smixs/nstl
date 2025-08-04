@@ -1,0 +1,273 @@
+Конечно, вот подробный JSON, описывающий стиль и верстку представленной презентации.
+
+Generated json
+{
+  "designSystemName": "Orive Pitch Deck",
+  "version": "1.0",
+  "description": "Стилевое руководство для питч-дека компании Orive. Дизайн характеризуется чистотой, минимализмом, использованием светлых тонов, яркими акцентами и ощущением 'воздуха' в макете.",
+  "globalStyles": {
+    "palette": {
+      "primary": {
+        "brightGreen": {
+          "hex": "#A8E063",
+          "description": "Основной акцентный цвет. Используется для графиков, фоновых декоративных элементов, иконок и градиентов.",
+          "usage": ["Акценты", "Кнопки", "Иконки", "Графики", "Декоративные фигуры"]
+        }
+      },
+      "secondary": {
+        "darkTeal": {
+          "hex": "#008080",
+          "description": "Используется в иконках, в качестве фона для некоторых элементов и как часть градиентов.",
+          "usage": ["Иконки", "Текстовые метки", "Градиенты"]
+        },
+        "darkGreenLogo": {
+          "hex": "#0B6623",
+          "description": "Более темный оттенок зеленого, используемый в градиентах иконки логотипа.",
+          "usage": ["Логотип", "Градиенты"]
+        }
+      },
+      "text": {
+        "primary": {
+          "hex": "#212529",
+          "description": "Основной цвет текста для заголовков и основного контента. Почти черный, но мягче.",
+          "usage": ["Заголовки", "Основной текст"]
+        },
+        "secondary": {
+          "hex": "#6c757d",
+          "description": "Второстепенный цвет текста для подписей, описаний и неактивных элементов.",
+          "usage": ["Подзаголовки", "Описания в карточках"]
+        },
+        "inverted": {
+          "hex": "#FFFFFF",
+          "description": "Белый текст для использования на темных или цветных фонах.",
+          "usage": ["Текст на кнопках", "Текст на темных плашках"]
+        },
+        "headerNav": {
+          "hex": "#A0A0A0",
+          "description": "Светло-серый цвет для навигационных элементов в хедере ('PITCH', 'DECK').",
+          "usage": ["Хедер"]
+        }
+      },
+      "background": {
+        "main": {
+          "hex": "#F7F9FA",
+          "description": "Основной фон слайдов. Очень светлый, почти белый, с холодным оттенком.",
+          "usage": ["Фон слайда"]
+        },
+        "card": {
+          "hex": "#FFFFFF",
+          "description": "Фон для всех карточек и всплывающих элементов.",
+          "usage": ["Карточки", "Модальные окна", "Информационные блоки"]
+        }
+      },
+      "neutrals": {
+        "border": {
+          "hex": "#E9ECEF",
+          "description": "Очень светлый серый для границ и разделителей.",
+          "usage": ["Границы"]
+        },
+        "shadow": {
+          "rgba": "rgba(0, 0, 0, 0.05)",
+          "description": "Цвет для теней, очень легкий и ненавязчивый.",
+          "usage": ["Тени под карточками и элементами"]
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "Sans-Serif, предположительно 'Inter', 'Poppins' или подобный современный гротеск.",
+      "headings": {
+        "h1": {
+          "fontFamily": "inherit",
+          "fontSize": "48px",
+          "fontWeight": 700,
+          "color": "palette.text.primary",
+          "lineHeight": "1.2",
+          "description": "Для главных заголовков слайдов (например, 'Competitive Advantage')."
+        },
+        "h2_pill": {
+          "fontFamily": "inherit",
+          "fontSize": "14px",
+          "fontWeight": 500,
+          "color": "palette.text.inverted",
+          "description": "Для подзаголовков в темной 'пилюле' (например, 'What Makes Orive Different?')."
+        },
+        "cardTitle": {
+          "fontFamily": "inherit",
+          "fontSize": "16px",
+          "fontWeight": 600,
+          "color": "palette.text.primary",
+          "description": "Заголовки внутри информационных карточек."
+        }
+      },
+      "bodyText": {
+        "p": {
+          "fontFamily": "inherit",
+          "fontSize": "16px",
+          "fontWeight": 400,
+          "lineHeight": "1.6",
+          "color": "palette.text.secondary",
+          "description": "Основной текст, описания в карточках."
+        },
+        "list": {
+          "fontFamily": "inherit",
+          "fontSize": "16px",
+          "fontWeight": 500,
+          "lineHeight": "1.7",
+          "color": "palette.text.primary",
+          "description": "Текст в нумерованных списках (слайд 'The Orive Solution')."
+        }
+      },
+      "utility": {
+        "headerNav": {
+          "fontFamily": "inherit",
+          "fontSize": "14px",
+          "fontWeight": 600,
+          "color": "palette.text.headerNav",
+          "letterSpacing": "1.5px",
+          "textTransform": "uppercase",
+          "description": "Текст 'PITCH' и 'DECK' в правом верхнем углу."
+        }
+      }
+    },
+    "layout": {
+      "container": {
+        "maxWidth": "1200px",
+        "padding": "60px 80px",
+        "backgroundColor": "palette.background.main",
+        "borderRadius": "24px",
+        "boxShadow": "0px 16px 40px rgba(0, 0, 0, 0.07)",
+        "position": "relative",
+        "overflow": "hidden"
+      },
+      "spacing": {
+        "baseUnit": "8px",
+        "small": "8px",
+        "medium": "16px",
+        "large": "24px",
+        "xlarge": "32px",
+        "xxlarge": "64px",
+        "description": "Используется последовательная система отступов для создания ритма и 'воздуха'."
+      },
+      "grid": "Гибкая сетка, часто асимметричная двухколоночная (изображение + текст) или центральная композиция с элементами по бокам."
+    },
+    "iconography": {
+      "style": "Минималистичные, сплошные иконки внутри круглого контейнера.",
+      "container": {
+        "size": "48px",
+        "borderRadius": "50%",
+        "background": "linear-gradient(135deg, palette.secondary.darkTeal, palette.primary.brightGreen)",
+        "display": "flex",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "icon": {
+        "color": "palette.secondary.darkTeal",
+        "size": "24px"
+      },
+      "logo": {
+        "shape": "Стилизованная буква 'S' или похожий символ в круге.",
+        "background": "linear-gradient(135deg, palette.secondary.darkGreenLogo, palette.primary.brightGreen)",
+        "boxShadow": "0px 4px 10px rgba(168, 224, 99, 0.4)"
+      }
+    }
+  },
+  "componentBreakdown": {
+    "cards": {
+      "default": {
+        "backgroundColor": "palette.background.card",
+        "borderRadius": "20px",
+        "padding": "24px",
+        "boxShadow": "0px 8px 25px rgba(0, 0, 0, 0.06)",
+        "border": "1px solid transparent",
+        "transition": "all 0.3s ease-in-out",
+        "hover": {
+          "transform": "translateY(-5px)",
+          "boxShadow": "0px 12px 30px rgba(0, 0, 0, 0.08)"
+        }
+      },
+      "imageCard": {
+        "extends": "cards.default",
+        "borderRadius": "20px",
+        "overflow": "hidden",
+        "description": "Карточка с изображением, как на слайде 'Key Features'."
+      }
+    },
+    "pillsAndTags": {
+      "headerPill": {
+        "display": "inline-flex",
+        "alignItems": "center",
+        "padding": "8px 16px",
+        "backgroundColor": "palette.text.primary",
+        "borderRadius": "20px",
+        "icon": {
+          "type": "три точки",
+          "color": "palette.text.inverted",
+          "marginRight": "8px"
+        },
+        "text": "typography.h2_pill"
+      },
+      "featureTag": {
+        "display": "inline-block",
+        "padding": "8px 20px",
+        "backgroundColor": "palette.secondary.darkTeal",
+        "color": "palette.text.inverted",
+        "borderRadius": "16px",
+        "fontSize": "14px",
+        "fontWeight": 500
+      }
+    },
+    "charts": {
+      "barChart": {
+        "style": "Вертикальный столбчатый график.",
+        "bars": {
+          "borderRadius": "8px 8px 0 0",
+          "background": "linear-gradient(to top, #D4FC79, #96E6A1)",
+          "description": "Столбцы с закругленными верхними краями и градиентной заливкой."
+        },
+        "gridLines": {
+          "style": "dashed",
+          "color": "palette.neutrals.border",
+          "width": "1px"
+        },
+        "dataLabels": {
+          "backgroundColor": "palette.text.primary",
+          "color": "palette.text.inverted",
+          "borderRadius": "8px",
+          "padding": "4px 8px",
+          "fontSize": "12px",
+          "fontWeight": 600
+        }
+      }
+    },
+    "decorativeElements": {
+      "backgroundCircle": {
+        "shape": "Крупный полукруг или круг.",
+        "position": "absolute",
+        "bottom": 0,
+        "zIndex": -1,
+        "opacity": 0.8,
+        "background": "radial-gradient(circle, rgba(168,224,99,0.8) 0%, rgba(168,224,99,0) 70%)",
+        "description": "Большая зеленая фигура, создающая фон и акцент в нижней части слайда."
+      }
+    }
+  },
+  "slideTemplates": {
+    "problemSolutionLayout": {
+      "description": "Слайды 'Problem Statement' и 'The Orive Solution'.",
+      "layout": "Горизонтальная компоновка. Широкое изображение/блок вверху и три карточки/пункта внизу, либо изображение слева и пункты справа.",
+      "elements": ["h1", "headerPill", "imageCard", "cards.default (x3)"]
+    },
+    "featureLayout": {
+      "description": "Слайд 'Competitive Advantage'.",
+      "layout": "Центральная композиция с фокусным элементом (фото человека) и асимметрично расположенными карточками-преимуществами.",
+      "elements": ["h1", "headerPill", "Центральное фото", "cards.default (x4)", "iconography.container"]
+    },
+    "marketLayout": {
+      "description": "Слайд 'Market Opportunity'.",
+      "layout": "Двухколоночный макет.",
+      "leftColumn": ["charts.barChart"],
+      "rightColumn": ["cards.default (для Target Market)", "cards.default (для Key Features)"],
+      "elements": ["h1", "headerPill"]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+/* Global Color Variables - Soft Pastel Theme */
+:root {
+  /* Primary Soft Colors */
+  --color-soft-blue: #A8D8EA;
+  --color-soft-pink: #FFAAA5;
+  --color-soft-yellow: #FFE5AD;
+  --color-soft-green: #B8E6B8;
+  --color-soft-purple: #E6B5E8;
+  --color-soft-orange: #FFD3B6;
+  
+  /* Darker Pastels for Text/Icons */
+  --color-blue-pastel: #7FC4E3;
+  --color-pink-pastel: #FF8B85;
+  --color-yellow-pastel: #FFD687;
+  --color-green-pastel: #93D993;
+  --color-purple-pastel: #D99BDB;
+  --color-orange-pastel: #FFC09F;
+  
+  /* Semantic Colors */
+  --color-primary: var(--color-soft-blue);
+  --color-primary-dark: var(--color-blue-pastel);
+  --color-secondary: var(--color-soft-pink);
+  --color-secondary-dark: var(--color-pink-pastel);
+  --color-success: var(--color-soft-green);
+  --color-success-dark: var(--color-green-pastel);
+  --color-warning: var(--color-soft-orange);
+  --color-warning-dark: var(--color-orange-pastel);
+  --color-info: var(--color-soft-purple);
+  --color-info-dark: var(--color-purple-pastel);
+  
+  /* Background Colors for Badges */
+  --color-primary-bg: #E8F4FD;
+  --color-secondary-bg: #FFE8E6;
+  --color-success-bg: #E8F5E8;
+  --color-warning-bg: #FFF4E6;
+  --color-info-bg: #F5E8F5;
+  
+  /* Text Colors */
+  --color-text-primary: #212121;
+  --color-text-secondary: #616161;
+  --color-text-muted: #9E9E9E;
+  
+  /* Gray Scale */
+  --color-gray-50: #FAFAFA;
+  --color-gray-100: #F5F5F5;
+  --color-gray-200: #EEEEEE;
+  --color-gray-300: #E0E0E0;
+  --color-gray-400: #BDBDBD;
+  --color-gray-500: #9E9E9E;
+  --color-gray-600: #757575;
+  --color-gray-700: #616161;
+  --color-gray-800: #424242;
+  --color-gray-900: #212121;
+}

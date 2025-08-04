@@ -1,0 +1,90 @@
+/* Color Utility Classes */
+
+/* Background Colors */
+.bg-primary { background-color: var(--color-primary); }
+.bg-primary-dark { background-color: var(--color-primary-dark); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-secondary-dark { background-color: var(--color-secondary-dark); }
+.bg-success { background-color: var(--color-success); }
+.bg-success-dark { background-color: var(--color-success-dark); }
+.bg-warning { background-color: var(--color-warning); }
+.bg-warning-dark { background-color: var(--color-warning-dark); }
+.bg-info { background-color: var(--color-info); }
+.bg-info-dark { background-color: var(--color-info-dark); }
+
+/* Badge Backgrounds */
+.bg-primary-soft { background-color: var(--color-primary-bg); }
+.bg-secondary-soft { background-color: var(--color-secondary-bg); }
+.bg-success-soft { background-color: var(--color-success-bg); }
+.bg-warning-soft { background-color: var(--color-warning-bg); }
+.bg-info-soft { background-color: var(--color-info-bg); }
+
+/* Text Colors */
+.text-primary { color: var(--color-primary-dark); }
+.text-secondary { color: var(--color-secondary-dark); }
+.text-success { color: var(--color-success-dark); }
+.text-warning { color: var(--color-warning-dark); }
+.text-info { color: var(--color-info-dark); }
+
+/* Icon Container Pattern */
+.icon-container-primary {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: var(--color-primary);
+}
+
+.icon-container-secondary {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: var(--color-secondary);
+}
+
+.icon-container-success {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: var(--color-success);
+}
+
+.icon-container-warning {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: var(--color-warning);
+}
+
+.icon-container-info {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: var(--color-info);
+}
+
+/* Icon Colors */
+.icon-primary { color: var(--color-primary-dark); }
+.icon-secondary { color: var(--color-secondary-dark); }
+.icon-success { color: var(--color-success-dark); }
+.icon-warning { color: var(--color-warning-dark); }
+.icon-info { color: var(--color-info-dark); }
